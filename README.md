@@ -1,2 +1,3 @@
 # Notes
-notes for school stuff literally everything different classes will prob be in diff branches or smthin idk
+
+Just a repo where I store all the notes I have for school. Nothing that interesting, simply allows me to access my notes easily anywhere.
