@@ -57,3 +57,21 @@ Note that vectors themselves do not rely on cartesian coordinates but the compon
 We can use right-triangle geometry to find rectangle components of a vector. If theta is the angle measured clockwise* `(assuming +y is 90deg counterclockwise from the +x direction)` from the +x direction to the direction of A, then `A_x = AcosΘ` (x component) and `A_y = AsinΘ`. Where A is the magnitude of vector A. If we know A_x and A_y we can find the angle theta from `tanΘ=(A_y)/(A_x) Θ=tan^-1 (A_y)/(A_x)` and the magnitude of A from the pythagorean theorem, `A = sqrt(A_x ^2 + A_y ^2)`. In 3d `A = sqrt(A_x ^2 + A_y ^2 + A_z ^2)`.
 
 ![alt text](assets/image6.png)
+
+Components can be positive or negative. The x component of a vector is positive if the x coordinate of an ant as it walks from the tail to the head of the vector increases. Thus if A points in the positive x direction then A_x is positive and opposite for negatives. Once we resolve a vector into its components, we can manipulate the individual components. Consider 2 vectors A and B that lie in the *xy* plane. The rectangular components of each vector and those of the sum `C = A + B` are shown in figure 1-15 below. We see that the rectangular parts of the vectors sum up to the equation before.
+
+`C_x = A_x + B_x`
+
+`C_y = A_y + B_y`
+
+![alt text](assets/image7.png)
+
+A **unit vector** is a dimensionless vector with magnitude exactly equal to 1. The vector Â = *A*/A is an example of a unit vector that points in the direction of *A*. The circumflex, (the hat) denotes that it is a unit vector. Usually these are written as i, j, and k respectively. For example the vector A_x i has magnitude |A_x| and points in the +x direction if A_x is positive or -x if A_x is negative. A general vector A can be written as the sum of three vectors, each of which is parallel to a coordinate axis.
+
+![alt text](assets/image9.png)
+
+![alt text](assets/image8.png)
+
+***IMPORTANT TABLE***
+
+![alt text](assets/formulas.png)
