@@ -1,6 +1,18 @@
-\section{7.1 Integration by Parts}
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{tcolorbox}
 
-Integration by parts is a method of integration that we use to integrate the product of two functions. The formula for integration by parts is derived from the product rule of differentiation and is given by:
+\begin{document}
+
+\title{7.1 Integration by Parts}
+\author{Amarnath Patel}
+\date{\today}
+
+\maketitle
+
+\section{Introduction}
+
+Integration by parts is a method of integration that we use to integrate the product of two functions. The formula for integration by parts is derived from the product rule of differentiation.
 
 \begin{tcolorbox}[colback=red!5!white,colframe=red!75!black]
   \begin{center}
@@ -10,7 +22,8 @@ Integration by parts is a method of integration that we use to integrate the pro
 
 Where $u$ and $v$ are functions of $x$.
 
-\subsection{Example}
+\section{Example}
+
 Let's look at an example. Suppose we want to integrate $\int x \, e^x \, dx$.
 
 First, we choose our $u$ and $dv$:
@@ -32,3 +45,5 @@ Substituting these into the integration by parts formula gives:
 \end{align*}
 
 So, $\int x \, e^x \, dx = x \cdot e^x - e^x + C$.
+
+\end{document}
