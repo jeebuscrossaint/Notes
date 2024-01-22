@@ -46,4 +46,192 @@ Substituting these into the integration by parts formula gives:
 
 So, $\int x \, e^x \, dx = x \cdot e^x - e^x + C$.
 
+\section{Example 2}
+
+Let's look at another example. Suppose we want to integrate $\int \ln(x) \, dx$.
+
+For this integral, we can use integration by parts with:
+\begin{align*}
+    u &= \ln(x) \\
+    dv &= dx
+\end{align*}
+
+Then we compute $du$ and $v$:
+\begin{align*}
+    du &= \frac{1}{x} \, dx \\
+    v &= x
+\end{align*}
+
+Substituting these into the integration by parts formula gives:
+\begin{align*}
+    \int \ln(x) \, dx &= x \cdot \ln(x) - \int x \cdot \frac{1}{x} \, dx \\
+    &= x \cdot \ln(x) - \int dx \\
+    &= x \cdot \ln(x) - x + C
+\end{align*}
+
+So, $\int \ln(x) \, dx = x \cdot \ln(x) - x + C$.
+
+\section{Example 3}
+
+Let's look at another example. Suppose we want to integrate $\int t^2 \, e^t \, dt$.
+
+For this integral, we can use integration by parts twice with:
+\begin{align*}
+    u &= t^2 \\
+    dv &= e^t \, dt
+\end{align*}
+
+Then we compute $du$ and $v$:
+\begin{align*}
+    du &= 2t \, dt \\
+    v &= e^t
+\end{align*}
+
+Substituting these into the integration by parts formula gives:
+\begin{align*}
+    \int t^2 \, e^t \, dt &= t^2 \cdot e^t - \int 2t \cdot e^t \, dt
+\end{align*}
+
+We need to use integration by parts again for the new integral. This time, we let:
+\begin{align*}
+    u &= 2t \\
+    dv &= e^t \, dt
+\end{align*}
+
+Then we compute $du$ and $v$:
+\begin{align*}
+    du &= 2 \, dt \\
+    v &= e^t
+\end{align*}
+
+Substituting these into the integration by parts formula gives:
+\begin{align*}
+    \int 2t \, e^t \, dt &= 2t \cdot e^t - \int 2 \cdot e^t \, dt \\
+    &= 2t \cdot e^t - 2 \cdot e^t + C
+\end{align*}
+
+Substituting this back into the original equation gives:
+\begin{align*}
+    \int t^2 \, e^t \, dt &= t^2 \cdot e^t - (2t \cdot e^t - 2 \cdot e^t + C) \\
+    &= t^2 \cdot e^t - 2t \cdot e^t + 2 \cdot e^t - C
+\end{align*}
+
+So, $\int t^2 \, e^t \, dt = t^2 \cdot e^t - 2t \cdot e^t + 2 \cdot e^t - C$.
+
+\section{Example 3}
+
+Let's look at another example. Suppose we want to integrate $\int t^2 \, e^t \, dt$.
+
+For this integral, we can use integration by parts twice with:
+\begin{align*}
+    u &= t^2 \\
+    dv &= e^t \, dt
+\end{align*}
+
+Then we compute $du$ and $v$:
+\begin{align*}
+    du &= 2t \, dt \\
+    v &= e^t
+\end{align*}
+
+Substituting these into the integration by parts formula gives:
+\begin{align*}
+    \int t^2 \, e^t \, dt &= t^2 \cdot e^t - \int 2t \cdot e^t \, dt
+\end{align*}
+
+We need to use integration by parts again for the new integral. This time, we let:
+\begin{align*}
+    u &= 2t \\
+    dv &= e^t \, dt
+\end{align*}
+
+Then we compute $du$ and $v$:
+\begin{align*}
+    du &= 2 \, dt \\
+    v &= e^t
+\end{align*}
+
+Substituting these into the integration by parts formula gives:
+\begin{align*}
+    \int 2t \, e^t \, dt &= 2t \cdot e^t - \int 2 \cdot e^t \, dt \\
+    &= 2t \cdot e^t - 2 \cdot e^t + C
+\end{align*}
+
+Substituting this back into the original equation gives:
+\begin{align*}
+    \int t^2 \, e^t \, dt &= t^2 \cdot e^t - (2t \cdot e^t - 2 \cdot e^t + C) \\
+    &= t^2 \cdot e^t - 2t \cdot e^t + 2 \cdot e^t - C
+\end{align*}
+
+So, $\int t^2 \, e^t \, dt = t^2 \cdot e^t - 2t \cdot e^t + 2 \cdot e^t - C$.
+
+\begin{tcolorbox}[colback=red!5!white,colframe=red!75!black]
+  \begin{center}
+    \textbf{The Integration by Parts Formula for Definite Integrals} \\
+    $\int_a^b u \, dv = [u \cdot v]_a^b - \int_a^b v \, du$
+  \end{center}
+\end{tcolorbox}
+
+\section{Example 4}
+
+Let's look at another example. Suppose we want to integrate $\int_0^1 \tan^{-1}(x) \, dx$.
+
+For this integral, we can use integration by parts with:
+\begin{align*}
+    u &= \tan^{-1}(x) \\
+    dv &= dx
+\end{align*}
+
+Then we compute $du$ and $v$:
+\begin{align*}
+    du &= \frac{1}{1+x^2} \, dx \\
+    v &= x
+\end{align*}
+
+Substituting these into the integration by parts formula for definite integrals gives:
+\begin{align*}
+    \int_0^1 \tan^{-1}(x) \, dx &= [x \cdot \tan^{-1}(x)]_0^1 - \int_0^1 x \cdot \frac{1}{1+x^2} \, dx \\
+    &= 1 \cdot \tan^{-1}(1) - 0 \cdot \tan^{-1}(0) - \int_0^1 \frac{x}{1+x^2} \, dx \\
+    &= \frac{\pi}{4} - \int_0^1 \frac{x}{1+x^2} \, dx
+\end{align*}
+
+The remaining integral can be solved by a simple substitution $u = 1 + x^2$, $du = 2x \, dx$, which gives:
+\begin{align*}
+    \int_0^1 \frac{x}{1+x^2} \, dx &= \frac{1}{2} \int_1^2 \frac{1}{u} \, du \\
+    &= \frac{1}{2} [\ln|u|]_1^2 \\
+    &= \frac{1}{2} (\ln(2) - \ln(1)) \\
+    &= \frac{1}{2} \ln(2)
+\end{align*}
+
+So, $\int_0^1 \tan^{-1}(x) \, dx = \frac{\pi}{4} - \frac{1}{2} \ln(2)$.
+
+\section{Reduction Formulas}
+
+\subsection{Sine and Cosine}
+
+The reduction formulas for sine and cosine are:
+
+\begin{align*}
+    \int \sin^n(x) \, dx &= -\frac{1}{n} \sin^{n-1}(x) \cos(x) + \frac{n-1}{n} \int \sin^{n-2}(x) \, dx \\
+    \int \cos^n(x) \, dx &= \frac{1}{n} \cos^{n-1}(x) \sin(x) + \frac{n-1}{n} \int \cos^{n-2}(x) \, dx
+\end{align*}
+
+\subsection{Tangent and Cotangent}
+
+The reduction formulas for tangent and cotangent are:
+
+\begin{align*}
+    \int \tan^n(x) \, dx &= \frac{1}{n-1} \tan^{n-1}(x) - \int \tan^{n-2}(x) \, dx \\
+    \int \cot^n(x) \, dx &= -\frac{1}{n-1} \cot^{n-1}(x) - \int \cot^{n-2}(x) \, dx
+\end{align*}
+
+\subsection{Secant and Cosecant}
+
+The reduction formulas for secant and cosecant are:
+
+\begin{align*}
+    \int \sec^n(x) \, dx &= \frac{1}{n-1} \sec^{n-2}(x) \tan(x) + \frac{n-2}{n-1} \int \sec^{n-2}(x) \, dx \\
+    \int \csc^n(x) \, dx &= -\frac{1}{n-1} \csc^{n-2}(x) \cot(x) + \frac{n-2}{n-1} \int \csc^{n-2}(x) \, dx
+\end{align*}
+
 \end{document}
