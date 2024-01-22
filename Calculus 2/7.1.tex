@@ -1,0 +1,34 @@
+\section{7.1 Integration by Parts}
+
+Integration by parts is a method of integration that we use to integrate the product of two functions. The formula for integration by parts is derived from the product rule of differentiation and is given by:
+
+\begin{tcolorbox}[colback=red!5!white,colframe=red!75!black]
+  \begin{center}
+    $\int u \, dv = u \cdot v - \int v \, du$
+  \end{center}
+\end{tcolorbox}
+
+Where $u$ and $v$ are functions of $x$.
+
+\subsection{Example}
+Let's look at an example. Suppose we want to integrate $\int x \, e^x \, dx$.
+
+First, we choose our $u$ and $dv$:
+\begin{align*}
+    u &= x \\
+    dv &= e^x \, dx
+\end{align*}
+
+Then we compute $du$ and $v$:
+\begin{align*}
+    du &= dx \\
+    v &= e^x
+\end{align*}
+
+Substituting these into the integration by parts formula gives:
+\begin{align*}
+    \int x \, e^x \, dx &= x \cdot e^x - \int e^x \, dx \\
+    &= x \cdot e^x - e^x + C
+\end{align*}
+
+So, $\int x \, e^x \, dx = x \cdot e^x - e^x + C$.
