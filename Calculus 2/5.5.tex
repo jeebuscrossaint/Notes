@@ -1,0 +1,106 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{tcolorbox}
+
+
+\begin{document}
+
+\title{The Substitution Rule 5.5}
+\author{Amarnath Patel}
+\date{\today}
+
+\maketitle
+
+\section{Introduction}
+U-substitution is a method for finding integrals. It involves changing the variable of integration. This is similar to the substitution method for solving equations.
+
+\section{Method}
+The method can be summarized as follows:
+
+\begin{enumerate}
+    \item Choose a part of the integrand to be $u$. This is often a function that makes the integral complicated.
+    \item Compute the differential $du$. This is done by differentiating $u$ with respect to $x$, and then multiplying by $dx$.
+    \item Substitute $u$ and $du$ into the integral, simplifying where possible.
+    \item If possible, compute the integral in terms of $u$.
+    \item Substitute the original expression for $u$ back into the result.
+\end{enumerate}
+
+\section{Example}
+Let's look at an example. Suppose we want to integrate $\int x \sin(x^2) dx$.
+
+\begin{align*}
+    u &= x^2 \\
+    du &= 2x \, dx \\
+    dx &= \frac{du}{2x}
+\end{align*}
+
+Substituting $u$ and $du$ into the integral gives $\frac{1}{2} \int \sin(u) du$, which can be integrated to give $-\frac{1}{2} \cos(u) + C$. Substituting $x^2$ back in for $u$ gives the final result $-\frac{1}{2} \cos(x^2) + C$.
+
+\section{Additional Example}
+Let's look at another example. Suppose we want to integrate $\int 2x \sqrt{1+x^2} dx$.
+
+\begin{align*}
+    u &= 1 + x^2 \\
+    du &= 2x \, dx \\
+    dx &= \frac{du}{2x}
+\end{align*}
+
+Substituting $u$ and $du$ into the integral gives $\int \sqrt{u} du$, which can be integrated to give $\frac{2}{3}u^{3/2} + C$. Substituting $1+x^2$ back in for $u$ gives the final result $\frac{2}{3}(1+x^2)^{3/2} + C$.
+
+\begin{tcolorbox}[colback=red!5!white,colframe=red!75!black]
+    \begin{center}
+      \textbf{The Substitution Rule} \\
+      If $u = g(x)$ is a differentiable function whose range is an interval $I$ and $f$ is continuous on $I$, then $\int f(g(x)) g'(x) dx = \int f(u) du$
+    \end{center}
+  \end{tcolorbox}
+
+  \section{Additional Example 2}
+Let's look at yet another example. Suppose we want to integrate $\int x^3 \cos(x^4 + 2) dx$.
+
+\begin{align*}
+    u &= x^4 + 2 \\
+    du &= 4x^3 \, dx \\
+    dx &= \frac{du}{4x^3}
+\end{align*}
+
+Substituting $u$ and $du$ into the integral gives $\frac{1}{4} \int \cos(u) du$, which can be integrated to give $\frac{1}{4} \sin(u) + C$. Substituting $x^4 + 2$ back in for $u$ gives the final result $\frac{1}{4} \sin(x^4 + 2) + C$.
+
+\section{Additional Example 2}
+Let's look at yet another example. Suppose we want to integrate $\int x^3 \cos(x^4 + 2) dx$.
+
+\begin{align*}
+    u &= x^4 + 2 \\
+    du &= 4x^3 \, dx \\
+    dx &= \frac{du}{4x^3}
+\end{align*}
+
+Substituting $u$ and $du$ into the integral gives $\frac{1}{4} \int \cos(u) du$, which can be integrated to give $\frac{1}{4} \sin(u) + C$. Substituting $x^4 + 2$ back in for $u$ gives the final result $\frac{1}{4} \sin(x^4 + 2) + C$.
+
+\section{Additional Example 5}
+Let's look at one more example. Suppose we want to integrate $\int_0^1 e^{2x} dx$.
+
+\begin{align*}
+    u &= 2x \\
+    du &= 2 \, dx \\
+    dx &= \frac{du}{2}
+\end{align*}
+
+Substituting $u$ and $du$ into the integral gives $\frac{1}{2} \int_0^2 e^u du$, which can be integrated to give $\frac{1}{2}e^u$. Evaluating this from 0 to 2 gives the final result $\frac{1}{2}(e^2 - e^0) = \frac{e^2 - 1}{2}$.
+\begin{tcolorbox}[colback=red!5!white,colframe=red!75!black]
+    \begin{center}
+      \textbf{The Substitution Rule for Definite Integrals} \\
+      If $g'$ is continuous on $[a, b]$ and $f$ is continuous on the range of $u = g(x)$, then $\int_a^b f(g(x)) g'(x) dx = \int_{g(a)}^{g(b)} f(u) du$
+    \end{center}
+  \end{tcolorbox}
+
+  \begin{tcolorbox}[colback=red!5!white,colframe=red!75!black]
+    \begin{center}
+      \textbf{Integrals of Symmetric Functions} \\
+      Suppose $f$ is continuous on $[-a, a]$. \\
+      (a) If $f$ is even [$f(-x) = f(x)$], then $\int_{-a}^{a} f(x) dx = 2 \int_{0}^{a} f(x) dx$. \\
+      (b) If $f$ is odd [$f(-x) = -f(x)$], then $\int_{-a}^{a} f(x) dx = 0$.
+    \end{center}
+  \end{tcolorbox}
+
+  
+\end{document}
