@@ -1,6 +1,7 @@
 \documentclass{article}
 \usepackage{amsmath}
 \usepackage{graphicx}
+\usepackage{amssymb}
 
 \begin{document}
 
@@ -41,5 +42,49 @@ When $v_x$ and $a_x$ are both positive and becoming more positive the speed is i
 
 \section{2-3}
 
-If a particle has constant acceleration that means that the average acceleration is equal to its acceleration.
+For a moving particle the final velocity $v_x$ equals the inital velocity plus the change in velocity and the change in velocity equals the average acceleration multiplied by time.
+
+$v_x = v_{0x} + \Delta v = v_{0x} + a_{av \, x} \Delta t$
+
+If a particle has constant acceleration $a_x$ it follows that the instantaneous acceleration and the average acceleration are equal. 
+
+$a_x = a_{av \, x}$ ($a_x$ is constant)
+
+These equations involving nearly constant acceleration are common and so we can use these to derive a set of \textbf{kinematic equations} for problems involving one-dimensional motion at constant acceleration.
+
+If a particle is moving  with constant acceleration $a_x$ has velocity $v_{0x}$ at time $t_0$ = 0 and $v_x$ at some time later $t$. 
+$v_x = v_{0x} + a_x t$
+
+And, $\Delta x = v_{1x}\Delta t + \frac{1}{2} a_x \Delta t^2$
+
+If we set $t_1 = 0$ and $t_2 = t$ then the equation above becomes $x - x_0 = v_{0x}t + \frac{1}{2} a_x t^2$
+
+\section{2-4}
+
+As we know, $dv_x(t)/dt$ = $a_x(t)$ meaning that the derivative of velocity with respect to time is equal to acceleration.
+If acceleration is constant, the velocity of that function of time when differentiated equals the constant. 
+$v_x = a_x t$ $a_x$ is constant
+$v_x = a_x t + c$
+When t = 0, $v_x = c$. Therefore \textit{c} is the velocity $v_{0x}$ at time $t = 0$.
+The position function $x(t)$ is that function whose derivative is the velocity: $dx/dt = v_x = v_{0x} + a_x t$.
+
+You can treat each term separatly, $x = x_0 + v_{0x} t + \frac{1}{2} a_x t^2$.
+In that equation, when $t = 0, x = x_0$. Usually we are given the \textbf{\textit{initial conditions}} of a situation which is called the initial value problem, and takes form like given acceleration and the init values find x(t).
+
+The sum of the displacement during a set of time intervals is approximately equal to the total displacement from time $t_1$ to time $t_2$.
+\newline
+\begin{center}
+\LARGE{$\Delta x \approx \sum_{i} v_{ix} \Delta t_i$}
+\end{center}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=1\textwidth]{assets/2.png}
+    \caption{Laziness}
+    \label{fig:my_label}
+\end{figure}
+
+An alternative definition of average velocity is 
+$v_{av \, x} = \frac{1}{\Delta t}\int_{t_1}^{t_2} v_x dt$
+
 \end{document}
