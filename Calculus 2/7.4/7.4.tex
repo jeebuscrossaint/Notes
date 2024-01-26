@@ -1,0 +1,139 @@
+\documentclass{article}
+\usepackage{amsmath,amssymb,amsthm}
+\title{7.4: Integration of Rational Functions by Partial Fractions}
+\author{Amarnath Patel}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+$f(x) = \frac{P(x)}{Q(x)}$ 
+\newline
+Where P and Q are polynomials and the degree of P is less than the degree of Q.\\
+Its possible to express f as a sum of simpler fractions provided that the degree of P is less than teh degree of Q. These are called proper.\\
+If f is improper that is, the degree of P is greater than Q, we must take the preliminary step of dividing Q into P via long division, until a remainder R(x) is resolved, such that the degree of R is less than Q.
+This results in the expression:
+\newline
+\centering
+$f(x) = \frac{P(x)}{Q(x)} = S(x) + \frac{R(x)}{Q(x)}$
+\newline
+\flushleft
+Where S(x) is a polynomial and the degree of R is less than the degree of Q.\\
+
+If the denominator Q(x) is factorable the next step is to factor out Q(x) as far as possible. 
+The third step is to express proper rational function $R(x)/Q(x)$ as a sum of \textbf{partial fractions} of the form:
+$\frac{A}{ax+b}^i$ or $\frac{Ax+B}{(ax^2+bx+c)^j}$
+
+The first case is where Q(x) is a product of distinct linear factors.
+Q(x) = $(ax+b)^i_1 (ax+b)^i_2 ... (ax+b)^i_n$ where $i_1, i_2, ... i_n$ are positive integers.\\
+
+$\frac{R(x)}{Q(x)} = \frac{A_1}{ax+b} + \frac{A_2}{(ax+b)^2} + ... + \frac{A_n}{(ax+b)^n}$
+
+$\int \frac{x^2 +2x -1}{2x^3 +3x^2 -2x}dx$
+
+$2x^3 +3x^2 -2x = x(2x^2 +3x -2) = x(2x-1)(x+2)$
+
+$\frac{x^2 +2x-1 }{x(2x-1)(x+2)} = \frac{A}{x} + \frac{B}{2x-1} + \frac{C}{x+2}$
+
+\section{Example 2}
+
+$\int \frac{dx}{x^2-a^2}$ where $a \neq 0$
+
+$\frac{1}{x^2-a^2} = \frac{1}{(x-a)(x+a)} = \frac{A}{x-a} + \frac{B}{x+a}$
+
+Therefore:
+
+$A(x+a) + B(x-a) = 1$
+
+$\frac{1}{2a} \int (\frac{1}{x-a} - \frac{1}{x+a})dx = \frac{1}{2a}(\ln|x-a| - \ln|x+a|) + C$
+
+\section{Example 3 and case 2}
+
+Q(x) is a product of linear factors, some of which are repeated.
+
+$\int \frac{x^4 -2x^2 +4x+ 1}{x^3 +x^2 -x +1}dx$
+$x+1 + \frac{4x}{x^3 +x^2 -x +1}$
+Next we need to factor out the denominator Q(x) as far as possible. Since Q(1) = 0 we know that x-1 is a factor.
+$(x-1)^2(x+1)$
+Since the linear factor x-1 occurs twice, the partial fraction decomposition is 
+$\frac{A}{x-1} + \frac{B}{(x-1)^2} + \frac{C}{x+1}$
+$4x = A(x-1)(x+1)+B(x+1)+C(x-1)^2$
+$ = (A+C)x^2 + (B-2C)x + (-A +B + C)$
+$A + C = 0$
+$B-2C = 4$
+$-A + B + C = 0$
+A = 1, B = 2, C = -1, so
+\newline
+$\frac{x^2}{2} + x - \frac{2}{x-1} + \ln|\frac{x-1}{x+1}| + K$
+
+\section{Case 3}
+Q(x)contains irreducible quadratic factors, none of which is repeated.
+
+$\int \frac{2x^2-x+4}{x^3+4x}dx$
+\newline
+$\frac{2x^2-x+4}{x^3+4x} = \frac{A}{x} + \frac{Bx+C}{x^2+4}$
+\newline
+$2x^2-x+4 = A(x^2+4) + (Bx+C)x$
+\newline
+$= (A+B)x^2 + Cx + 4A$
+\newline
+$A+B = 2$
+$C = -1$
+$4A = 4$
+\newline
+Therefore A and B = 1 and C = -1.
+$u = x^2 + 4$
+\newline
+$du = 2xdx$
+\newline
+$\int \frac{1}{x}dx + \int \frac{x}{x^2+4}dx - \int \frac{1}{x^2+4}dx$
+\newline
+$ = \ln|x| + \frac{1}{2} \ln|x^2+4| - \frac{1}{2} \tan^{-1}(\frac{x}{2}) + K$
+\newline
+
+\section{Case 4}
+
+Q(x) contains a repeated irreducible quadratic factor.
+
+$\int \frac{1-x+2x^2-x^3}{x(x^2 +1)^2}dx$
+\newline
+$ = \frac{A}{x} + \frac{Bx+C}{x^2+1} + \frac{Dx+E}{(x^2+1)^2}$
+\newline
+$-x^3 + 2x^2 -x + 1 = A(x^2+1)^2 + (Bx+C)x(x^2+1) + (Dx+E)x$
+\newline
+$ = A(x^4 +2x^2+1) + B(x^4 +x^2)+ C(x^3 +x) + Dx^2 + Ex$
+\newline
+$ = (A+B)x^4 + Cx^3 + (2A+B+D)x^2 + (C+E)x + A$
+
+$A+B = 0$
+$C = -1$
+$2A+B+D = 2$
+$C+E = -1$
+$A = 1$
+Each therefore:
+$B = -1$
+$D = 1$
+$E = 0$
+$A = 1$
+$C = -1$
+
+$\int (\frac{1}{x} - \frac{x+1}{x^2+1} + \frac{x}{(x^2+1)^2})dx$
+$ln|x|-\frac{1}{2}ln(x^2+1)-\tanh(x)-\frac{1}{2(x^2+1)} + K$
+
+
+\section{Rationalizing Substitutions}
+
+$\int \frac{\sqrt{x+4}}{x}dx$
+\newline
+Let $u = \sqrt{x+4}$. Then $x = u^2 -4$ and $dx = 2udu$.
+\newline
+$\int \frac{u}{u^2-4}2udu$
+\newline
+$\int (1+\frac{4}{u^2-4})du$
+\newline
+$u^2 -4 = (u-2)(u+2)$
+\newline
+$2\sqrt{x+4}+2\ln|\frac{\sqrt{x+4}-2}{\sqrt{x+4}+2}| + C$
+
+\end{document}
