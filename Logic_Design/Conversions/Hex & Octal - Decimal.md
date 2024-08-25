@@ -1,0 +1,1 @@
+First convert octal to binary, since we know how to do that of course the 3 groupings and whatnot, same thing for hex, 4 per group. then convert the binary number to base 10.

@@ -1,0 +1,1 @@
+Convert the decimal value to base 2 and then convert from base 2 to octal and hex by grouping. So using that division/multiplication method to get to binary and then group to hex from there.
