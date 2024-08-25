@@ -14,3 +14,7 @@ You could also just do this:
 ![[Pasted image 20240825102359.png]]
 
 ![[Pasted image 20240825102527.png]]
+
+## Reverse Engineering method
+Another way of converting from decimal to binary is the reverse engineering method:
+![[Pasted image 20240825103726.png]]
