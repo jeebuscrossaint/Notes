@@ -1,1 +1,3 @@
 - optimization problems minimize or maximize some param over all possible inputs
+- optimization problems can use the greedy algorithm which supposeldy would make the "best" choice at each step.
+- it is an algorithmic paradigm which is a general approach for designing an alg
