@@ -1,0 +1,1 @@
+- optimization problems minimize or maximize some param over all possible inputs
