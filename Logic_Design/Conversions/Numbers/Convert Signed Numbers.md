@@ -90,5 +90,5 @@ $$ 144 + 11 = 155 $$
 - binary comparison ***DOES NOT WORK***
 #### why use this garbage then?
 - for floats it is most common way to represent the `significand (also called the mantissa or coefficient)
-- 
+
 
