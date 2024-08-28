@@ -1,3 +1,4 @@
+## introduction + example
 first step is to put 8 dashes of course
 `____ ____`
 1 byte is 8 bits is why
@@ -26,3 +27,11 @@ $$ 224 + 4 = 228 $$
 228 isn't our answer...
 well actually remember it is out of range of our `sbyte` type so we need to bring it back into the `sbyte` range of `-128 to 127` by **subtracting 255** from 228 which gives us -27 again.
 basically subtracting here un-nots `or unknots?` our value.
+
+## pros n cons
+### disadvantages
+- it sucks to calculate remember 2 zeros
+- bin arith doesn't work
+- bin comp doesn't work
+## advantages
+- i guess there are none?
