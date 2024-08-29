@@ -27,3 +27,10 @@ these thresholds or ranges where the voltage can be 1 or 0 or invalid depend on
 - and in a negative-going pulse the waveform looks like this:
 - ![[Pasted image 20240828195656.png]]
 
+## waveform characteristics
+- period
+- pulse
+- width
+- amplitude
+
+--- left off at 23:15 
