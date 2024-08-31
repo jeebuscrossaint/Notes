@@ -43,3 +43,4 @@ these thresholds or ranges where the voltage can be 1 or 0 or invalid depend on
 #### wrong answer:
 ![[Pasted image 20240831135449.png]]
 ![[Pasted image 20240831140312.png]]
+![[Pasted image 20240831141111.png]]
