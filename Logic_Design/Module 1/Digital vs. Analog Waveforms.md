@@ -33,4 +33,7 @@ these thresholds or ranges where the voltage can be 1 or 0 or invalid depend on
 - width
 - amplitude
 
---- left off at 23:15 
+![[Pasted image 20240831132836.png]]
+![[Pasted image 20240831133454.png]]
+![[Pasted image 20240831133523.png]]
+![[Pasted image 20240831134032.png]]
