@@ -36,4 +36,10 @@ these thresholds or ranges where the voltage can be 1 or 0 or invalid depend on
 ![[Pasted image 20240831132836.png]]
 ![[Pasted image 20240831133454.png]]
 ![[Pasted image 20240831133523.png]]
-![[Pasted image 20240831134032.png]]
+![[Pasted image 20240831134115.png]]
+
+![[Pasted image 20240831135331.png]]
+
+#### wrong answer:
+![[Pasted image 20240831135449.png]]
+![[Pasted image 20240831140312.png]]
