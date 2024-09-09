@@ -7,5 +7,3 @@
 
 - Logic design: interconnect basic logic (digital) building blocks (gates, flip flops) to perform a specific function
 - circuit design: interconnect analog components, such as resistors, diodes, and transistors.
-
--- stopped at module 1 video 3.2 around 4 minutes in
