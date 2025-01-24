@@ -88,3 +88,74 @@ $E_2 = 6.13 \cdot 10^4 N/c$
 
 so now lets find the DIRECTIONS of the field
 
+so we when we go down from P2 its negative y of course (going down) and when we go to the right it is positive x 
+![[Pasted image 20250123211024.png]]
+so we have that green triangle which is us trying to find electric field and we have this new bright orange triangle which was the existing triangle we would have before when creating a straight line to $q$
+
+so we need to find the angle of green theta which we cant know because we dont know the triangle's dimensions but we DO KNOW the orange triangle's theta because we have the dimensions for it, so we can use INVERSE TANGENT to find theta since we have opposite and adjacent sides
+![[Pasted image 20250123211320.png]]
+
+so now to find $E_x$ and $E_y$ we can use $\sin$ and $\cos$ 
+
+$E_x$ is positive as we see because it is moving rightward and $E_y$ will be negative because we are moving downward
+
+so $E_x = E \sin \theta = +6.13 \cdot 10^4 N/C \sin(68.20) = +5.70 \cdot 10^4 N/c$
+sin of course being opposite hypotenuse
+
+and
+$E_y = E \cos \theta = -6.13 \cdot 10^4 N/C \cos(68.20) = -2.28 \cdot 10^4 N/C$
+
+THUS
+$\vec{E} = +5.57 \cdot 10^4 N/C \hat{x} -2.28 \cdot 10^4 N/C \hat{y}$
+
+because of course
+$\vec{E} = \sum{E} = E_x + E_y$
+sum of components
+
+
+so for our next example we will TWO charges
+![[Pasted image 20250123212350.png]]
+
+basically its kinda the same sorta deal you calculate the x parts and the y components for each particle of charge ($q_1$ and $q_2$) and then you add them both
+
+so of course in our case the effects of $q_1$ on P is that P will be going away since q1 is positive
+
+so uh idont feel like writing k over and over again
+
+$E_1 = \frac{k \cdot 1 \cdot 10^-6 c}{0.5m^2}$
+
+of course the c will cancel out and so will the meterse squared i said this already
+
+but anyways we can see here that $E_{1x} = 0$ and $E_{1y} = -E_1$ because this vector only has one component that has value and of course it goes in the negative direction because it is going DOWNARDS on the y axis, the only axis it has value on
+
+and same thing for $q_2$ it has no $E_y$ value and since it is negative charge the particle will be attracted and it is going positive (to the right) because it has no value on the y axis and it is moving RIGHTWARDS on the x axis 
+
+$E_{2x} = +E_2$
+and $E_{2y} = 0$
+
+anyways so $E_1$ from earlier is valued at $3.60 \cdot 10^4 N/C$ 
+
+say we quintuple the charge of $q_1$ and double the distance away from P. We know that this will 5 times the numerator's value, and will 4 times the denominators value (the distasnce) because it is of course beign squared so even though doubled it is squeared therefore the new value of $E_1$ would just be $5/4 \cdot E_1$  (completely theoretical)
+
+well thats actually NOT theoretical becasue we can see here that the distance from Q2 to P is TWICE the distance from Q1 to P therefore QUADRUPLING our R like how I just said in the previous paragraph and then we can see that the ABSOLUTE VALUE of Q is 5 TIMES GREATER and therefore 
+$E_2 = 5/4 E_1$ 
+
+Therefore $E_2 = 4.50 \cdot 10^4 N/C$
+![[Pasted image 20250123214547.png]]
+
+and so now you just add $E_y$ and $E_x$ to get 
+$\vec{E} = +4.50 \cdot 10^4 N/C \hat{x} - 3.60 \cdot 10^4 N/C \hat{y}$
+
+so then when we find the MAGNITUDE of the total field at the origin ![[Pasted image 20250123214724.png]]
+
+is our FINAL ANSWER for what the electric field is in our situation
+
+last thing you would figure out is what is the ANGLE of the electric field
+
+**ALWAYS GO FROM THE POSITIVE X AXIS COUNTER CLOCKWISE FOR FINDING ANGLE**
+
+anyways we would just use inverse tangent (adjacent opposite) to find theta
+![[Pasted image 20250123215032.png]]
+
+so the orange angle is $38.66$ and the purple angle is therefore that subtracted from 360 so $321.34$
+
