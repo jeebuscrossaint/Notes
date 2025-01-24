@@ -159,3 +159,4 @@ anyways we would just use inverse tangent (adjacent opposite) to find theta
 
 so the orange angle is $38.66$ and the purple angle is therefore that subtracted from 360 so $321.34$
 
+STOPPED AT 45 MINUTSE 11 SECONDS
