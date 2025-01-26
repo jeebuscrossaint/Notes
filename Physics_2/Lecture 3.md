@@ -159,4 +159,27 @@ anyways we would just use inverse tangent (adjacent opposite) to find theta
 
 so the orange angle is $38.66$ and the purple angle is therefore that subtracted from 360 so $321.34$
 
-STOPPED AT 45 MINUTSE 11 SECONDS
+ok new example
+
+![[Pasted image 20250125194856.png]]
+so what in this case is you divide the x axis in to three `regions` 
+region 1 is left of that first charge, region 2 is in between both, and region 3 is to the right of that second charge.
+
+for a second lets not care about charge 2, focus on charge 1
+
+so in the end what we wanna do is we wanna sketch the charge from each field in each region.
+
+so say we pick an arbitrary point somewhere in region 1
+since charge 1 at x=0 is positive whatever point we draw will be goign AWAY from the particle since of course all test charges are positive
+
+we can call this field from charge 1 $\vec{E_1}$
+say we put another charge in region 2, this particle will be goign away of course again.
+this particle is still under $\vec{E_1}$'s influence
+
+region 3 is the same deal its to the right still just much further away
+it is still going away of course.
+
+it is also under $\vec{E_1}$'s influence
+
+so this is what we have right now
+![[Pasted image 20250125195957.png]]
