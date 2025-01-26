@@ -252,3 +252,106 @@ $r = 0.34m$
 
 so the distance between particle 2 and arbitrary p is 0.34m, so the distance from p1 to r is 0.54m
 
+**Electric dipole: Electric dipole is two charges with same magnitude but opposite sign separated by some distance.**
+
+![[Pasted image 20250125205434.png]]
+
+![[Pasted image 20250125205657.png]]
+
+basically say on that line $\vec{E_+}$ we have that arbitrary poitn clearly it is closer to point 1 which is positive so it is going to be going away but point 2 is negative but it is fartehr away from point 2 so it has less of an influence on our test particle on $\vec{E_-}$ so we can clearly see since they are two vectors we  can conduct vector adition on them and that is the total electric field being enacted upon our point $P_x$.
+
+so you can keep on doing that for all the points around the charges
+
+this is basically waht it comes out to
+![[Pasted image 20250125210005.png]]
+
+**an important idea is:**
+if you know the electric field for either one or more charges how can you relate that to electric force?
+
+![[Pasted image 20250126100915.png]]
+that image basically summarizes it you can relate it to
+earlier where
+$E = \frac{F}{q_0}$
+so like if u wanna find just the x part of the field or just the y part you can do
+$F_x = qE_x$ and of course $F_y = qE_y$ 
+
+
+**uniform electric fields**
+
+a uniform electric field is a field where everywhere in the space the field is the same both in magnitude and direction
+
+so the idea is if you are given a uniform field and you put a charge in said field how does it act?
+
+also if the force on the charge is constant than by newtons second law $F=ma$ and the acceleration produced by the electric force is also constant 
+$a = F/m = (qE)/m$
+
+F does not change in a uniform field, in essence, if you place a charge in a uniform field the force enacted upon it does not change (constant)
+
+well we can apply this to that annoying 1d acceleration stuff from physics 1
+
+for 1d:
+$\Delta x = v_0t +1/2 at^2$ 
+$v = v_0 +at$
+with a = qE/m (could be negative or positive or negative depending on direction)
+
+example:
+
+![[Pasted image 20250126104044.png]]
+
+a. what is the magnitude of the charge?
+
+ur given a unfirom field of 5 by 10^6 newtons per coloumb is directed in the +x direction so the field never changes so its always in the postiive x direction and always 5 by 10^6 n/c everywhere
+
+a point charge of two micro coloumbs with a mass of 0.5 kg is placed in the field and we gotta ignore the weight force
+
+so we can start with how much force is being enacted upon the charge in the field so 
+$F = |q|E$ 
+
+basically just multiply $2 \cdot 5 \cdot 10^6 N/C$ 
+well tehcnically $(2 \cdot 10^-6) \cdot (5 \cdot 10^6)$ 
+because you gotta convert the two to coloumbs from micro coloumbs
+
+so the 10^6 and 10^-6 cancel out so you just end with 2 x 5N which is just 10 newtons 
+
+so the electric force $F_e$ is going in the same direction as the field so the force is also going to be postiive x
+
+so therefore
+$\vec{F}=10N\hat{x}$ 
+
+but thats not that interesting lets find what the acceleration is on the charge
+
+so right now 
+$\sum F_x = 10N$
+
+so 
+$\sum F_x = 10N = ma$ 
+so we can just divide by the mass and we can get hte acceleration of the particle 
+so the mass was 0.5 kg so 
+$a = \frac{+10N}{0.5kg} = +20 m/s^2$
+in the +x direction
+
+so a last final problem, if the charge started from rest, what is its velocity after it has traveled a horizontal displacement of 20 cm in the +x direction
+
+$V_t = V_0 +at$
+$\Delta x = V_0t + 1/2 at^2$
+$V_t^2 = V_0^2 + 2a\Delta x$
+
+so we know a, we know $V_0$ since thats just rest so 0 and we know delta x is 20 cm
+
+we will use the last equation since we dont know anything about the time so we cant use the first one and we are of course trying to find velocity not delta x because we already know that so we cant use teh second equation.
+
+simply plugin the numbers and voila
+![[Pasted image 20250126113514.png]]
+
+of course we used meters since centimeters suck
+
+$V_t = +2.83 m/s$ in the +x direction
+
+another problem:
+how long does it take to travel 20 cm in the +x direction if it started from rest?
+
+for this we can use the second equation and solve for t so
+$t^2 = \frac{2\Delta x}{a}$
+![[Pasted image 20250126113748.png]]
+
+that monsterous square root is simply 0.14 seconds.
