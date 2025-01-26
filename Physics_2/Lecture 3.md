@@ -183,3 +183,72 @@ it is also under $\vec{E_1}$'s influence
 
 so this is what we have right now
 ![[Pasted image 20250125195957.png]]
+
+ok so lets put charge 2 back and move out charge 1
+so lets start in region 3, since charge 2 is negative 2 micro coloumbs so all the test charges will go towards so we can imagine a particle in region 3 moving leftward toward particle 2
+
+another point in region 2 will also be going towards and again region 1 a particle will be going towards particle 2, whos field vector btw is $\vec{E_2}$
+
+so teh question now is where exactly is the total electric field from these two charges equal to zero besides $\infty$ 
+
+a. they need to be going in opposite directions
+b. they also need to have the same amount basically $\vec{E_1}$ and $\vec{E_2}$ need to be the same
+
+so there are in fact two places where they are going in opposite directions, region 1 and region 3![[Pasted image 20250125201550.png]]
+however theres only one place where it can be zero, so not both $I$ and $III$.
+
+so the other thing is the magnitudes have to be the same
+
+ok so which charge is the biggest charge abs wise
+of course particle 1 lol its a whole 5 micro coloumbs compared to negative 2
+
+so in region 1, particle 2's test charge is going to be very lightly influenced, relative to a partcile from region 3 from particle 1
+
+like you can basically just figure this out like a weight lol
+
+basically its really gotta be somewhere close to the one with smaller absolute value so region 3, since particle 1's influence there is really little and particle 2's influence is already little since well it is $\small{little}$ 
+
+so the last thing we need to figure out is where in region 3 is this point where its zero.
+
+so we can pick a random point but we need to figure out where the field is
+
+so we need to pick a spot so that we are in a place where the length of $\vec{E_1}$ is equal to the length of $\vec{E_2}$ 
+
+so we can drop in a variable representing the distance between particle two and our arbitrary point we can call it $r$ for our case.
+
+so right now the distance between arbitrary point and particle two is $r$ 
+so our formula right now looks like 
+$E_2 = \frac{k|q_2|}{r^2}$ 
+
+btw the distance between particle 1 and particle two is 0.2 m
+so the distance between p1 to r is r+0.2m
+
+so 
+$E_1 = \frac{k|q_1|}{(r+0.2m)^2}$
+
+so of  course we need to find a point where $E_1 = E_2$ which sounds annoying since we got squares
+
+ok so the k's cancel out of course
+
+so really we have now
+
+$\frac{|q_1|}{(0.2m + r)^2} = \frac{|q_2|}{r2}$
+
+so next you cross multiply
+![[Pasted image 20250125204340.png]]
+
+next you can just take the square root
+![[Pasted image 20250125204456.png]]
+
+so then you multiply r by both sides and then subtract r so then you factor out an r
+![[Pasted image 20250125204549.png]]
+
+and then you divide that whole block next to r by 0.2m
+![[Pasted image 20250125204625.png]]
+
+and you end up with
+
+$r = 0.34m$
+
+so the distance between particle 2 and arbitrary p is 0.34m, so the distance from p1 to r is 0.54m
+
