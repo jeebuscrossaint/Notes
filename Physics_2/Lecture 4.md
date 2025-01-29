@@ -54,3 +54,42 @@ so dq is the distance from q to p right
 
 so thats just one dq or some shit
 so now we need to integrate to find all dq's on the line? its like midnight idfk
+
+$\lambda = dq/dl$
+basically lamda is equal to that little bit of charge per length and of course derivatives so its infinitesimally small technically but still has value
+
+$\lambda (y) =dq/dy$
+dq = lambda y dy
+
+![[Pasted image 20250129001741.png]]
+that dE is wrong![[Pasted image 20250129001811.png]]
+that one is right
+
+the monster
+![[Pasted image 20250129001939.png]]
+dont have to do it just set it up
+
+E_x = 2kQ/x sqrt(L^2 + 4x)
+
+
+ok so now say we got a 3d setup
+so now the electric force is on a disk/plate and say we have ours centered on teh z axis
+
+so say we pick a chunk of the disk (in purple)
+![[Pasted image 20250129005024.png]]
+and it represents dq
+
+so we wanna draw a vector from dq to P
+![[Pasted image 20250129005106.png]]
+called r
+
+something new:
+so if you have a charge spread over an area you call it sigma
+$\sigma$
+wattesigma
+so its basically dq but its defined for an area
+so $\sigma = dq/dA$
+so we will use polar coordinates since this is a circle
+and of course polar is meant for circles
+![[Pasted image 20250129005535.png]]
+top is cartesian bottom is polar
